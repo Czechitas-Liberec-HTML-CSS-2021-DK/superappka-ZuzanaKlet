@@ -1,15 +1,17 @@
-        /* nejsme vcerejsi, pouzivame moderni box model */
-        
-        html {
-            box-sizing: border-box;
-        }
-        
-        *,
-         ::after,
-         ::before {
-            box-sizing: inherit;
-        }
-        /*
+/* nejsme vcerejsi, pouzivame moderni box model */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: inherit;
+}
+
+
+/*
  BARVY
  sede pozadi      #e5e5e5
  svetle fialova   #48418e
@@ -19,104 +21,106 @@
  Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
  https://fonts.google.com/specimen/Roboto
 */
-        
-        body {
-            padding: 0;
-            margin: 0;
-            background-color: #e5e5e5;
-            font-family: "Source Sans Pro", sans-serif;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-        }
-        
-        .obal {
-            width: 960px;
-            /* obsah stránky je omezený do pruhu širokého 960px */
-            margin: 0 auto;
-            /* pruh je na stránce vycentrovaný */
-            background: white;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-        }
-        /* ----- zde začni psát vlastní CSS ----- */
-        
-        ul {
-            margin: 5;
-            padding: 0;
-        }
-        
-        li {
-            display: inline;
-            padding: 30px;
-        }
-        
-        .container {
-            width: 960px;
-            background-image: url("images/pozadi.jpg");
-            background-position: center;
-            color: white;
-            position: relative;
-        }
-        
-        h1 {
-            font-size: 80px;
-            position: absolute;
-            left: 30px;
-        }
-        
-        h2 {
-            position: absolute;
-            left: 30px;
-            top: 150px;
-            font-size: 30px;
-            font-weight: lighter;
-        }
-        
-        .button {
-            position: relative;
-            display: inline;
-            left: 20px;
-            top: 350px;
-            border: 1px solid white;
-            border-radius: 5px;
-            padding: 1rem;
-            margin: 1rem;
-        }
-        
-        .zdarma {
-            background-color: #25133d;
-        }
-        
-        .telefon {
-            position: relative;
-            left: 555px;
-            top: 5px;
-        }
-        
-        .druhycontainer {
-            width: 960px;
-            display: flex;
-            flex-direction: row;
-            background-color: white;
-            text-align: center;
-        }
-        
-        .ikony {
-            margin: 30px;
-        }
-        
-        .ikona {
-            height: 80px;
-            width: 80px;
-        }
-        
-        h3 {
-            color: #48418e;
-        }
-        
-        .paticka {
-            background-color: #48418e;
-            color: white;
-            width: 960px;
-            text-align: center;
-        }
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.obal {
+    width: 960px;
+    /* obsah stránky je omezený do pruhu širokého 960px */
+    margin: 0 auto;
+    /* pruh je na stránce vycentrovaný */
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ----- zde začni psát vlastní CSS ----- */
+
+ul {
+    margin: 5;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 30px;
+}
+
+.container {
+    width: 960px;
+    background-image: url("images/pozadi.jpg");
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+h1 {
+    font-size: 80px;
+    position: absolute;
+    left: 30px;
+}
+
+h2 {
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.button {
+    position: relative;
+    display: inline;
+    left: 20px;
+    top: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.zdarma {
+    background-color: #25133d;
+}
+
+.telefon {
+    position: relative;
+    left: 555px;
+    top: 5px;
+}
+
+.druhycontainer {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    text-align: center;
+}
+
+.ikony {
+    margin: 30px;
+}
+
+.ikona {
+    height: 80px;
+    width: 80px;
+}
+
+h3 {
+    color: #48418e;
+}
+
+.paticka {
+    background-color: #48418e;
+    color: white;
+    width: 960px;
+    text-align: center;
+}
